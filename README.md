@@ -1,6 +1,6 @@
 # MLAN
 
-This is a PyTorch implementation of the paper "A multi-level attention network for fine-grained image classification" (Qi Xin, Tiejun Lv, and Hui Gao). We present the test code and a detailed code on CUB-200-2011 dataset for other researchers who interest in our work to reproduce our work.
+This is a PyTorch implementation of the paper "A multi-level attention network for fine-grained image classification". We present the test code and a detailed code on CUB-200-2011 dataset for other researchers who interest in our work to reproduce our work.
 
 ## Requirements
 
