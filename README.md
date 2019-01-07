@@ -8,7 +8,7 @@ The following are the experiment environment:
 OS ubuntu 16.04
 CUDA 9.0
 CUDNN 7.0
-Pytorch 0.4.0
+Pytorch 0.4.1
 4 NVIDIA 1080Ti GPU(at least 1 is required)
 Note: please install jupyter to run the code provided.
 
