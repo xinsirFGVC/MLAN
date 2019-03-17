@@ -1,7 +1,7 @@
 ## 智能感知与服务-识别与检索研究组-周报
 
 人员：张学森、田茂清、周心池、周东展、邓晗、罗棕太、刘春亚、辛琪、陈玲
-日期：2019xxxx-2019xxxx
+日期：20190311-20190315
 
 [TOC]
 
@@ -9,7 +9,7 @@
 
 - <span style="color:red">[已完成]</span> 将人脸识别的DeepID2算法在Reid上复现，并尝试用验证损失和认证损失联合优化模型
 - <span style="color:red">[已完成]</span> 对warm_up参数对整体模型的训练的影响做了详细的实验分析，适当提高warp_up速率可以提高识别性能
-- <span style="color:green">[进行中]</span> 对不同的训练集的构成对模型性能的影响做了初步的分析，通过一些筛选和约束可以构建更好的训练集
+- <span style="color:green">[进行中]</span> 对不同的训练集的构成对模型性能的影响做了初步的分析，结果显示通过一些筛选和约束构建的训练集效果更好
 - <span style="color:blue">[待办项]</span> 尝试参考人脸识别方面的一些经验，对训练数据进行质量过滤，需要将模糊、低光照、和严重遮挡的图片剔除
 - <span style="color:blue">[待办项]</span> 继续对数据集的构建进行分析，研究不同的数据分布以及不同的数据集构成对训练的模型的性能的影响
 - <span style="color:blue">[待办项]</span> 继续对模型的一些训练参数进行对比实验，分析不同的超参数设置对模型的影响
@@ -17,25 +17,22 @@
 ### 1 本周工作
 
 #### 1.1 ReID常规任务
+
 ##### 1.1.1 数据收集
 
 ##### 1.1.2 ReID聚类
 
 ##### 1.1.3 模型训练
-- <span style="color:red">[已完成]</span> xxx
-- <span style="color:green">[进行中]</span> xxx
-- <span style="color:blue">[待办项]</span> xxx
+- <span style="color:red">[已完成]</span> 将人脸识别的DeepID2算法在Reid上复现，并尝试用验证损失和认证损失联合优化模型
+- <span style="color:red">[已完成]</span> 对warm_up参数对整体模型的训练的影响做了详细的实验分析，适当提高warp_up速率可以提高识别性能
+- <span style="color:green">[进行中]</span> 对不同的训练集的构成对模型性能的影响做了初步的分析，通过一些筛选和约束可以构建更好的训练集
+- <span style="color:blue">[待办项]</span> 尝试参考人脸识别方面的一些经验，对训练数据进行质量过滤，需要将模糊、低光照、和严重遮挡的图片剔除
 
 #### 1.2 ReID新功能探索
 ##### 1.2.1 rectify
-- <span style="color:red">[已完成]</span> xxx
-- <span style="color:green">[进行中]</span> xxx
-- <span style="color:blue">[待办项]</span> xxx
 
 ##### 1.2.2 part
-- <span style="color:red">[已完成]</span> xxx
-- <span style="color:green">[进行中]</span> xxx
-- <span style="color:blue">[待办项]</span> xxx
+
 
 
 #### 1.3 模型加速
